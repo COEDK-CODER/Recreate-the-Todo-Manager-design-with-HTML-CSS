@@ -1,27 +1,28 @@
-.TodoPageMain{
+.TodoPageMain {
   font-family: OpenSans-Semibold;
   max-width: 1024px;
   max-height: 517px;
   margin: 0 auto;
   margin-top: 60px;
 }
-.TodoPage-title{
-font-weight: bolder;
- width: 129px;
- height: 27px;
- margin: 0 568px 12px 327px ;
- font-size: inherit;
- color: #453C52;
+
+.TodoPage-title {
+  font-weight: bolder;
+  width: 129px;
+  height: 27px;
+  margin: 0 568px 12px 327px;
+  font-size: inherit;
+  color: #453C52;
   letter-spacing: 0.14px;
-   }
-   .AddTodo
-{
-height: 32px;
-display: flex;
-margin-bottom: 24px;
 }
-.AddTodo-text
-{
+
+.AddTodo {
+  height: 32px;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.AddTodo-text {
   margin: 0px 10px 0px 324px;
   background: #FFFFFF;
   border: 1px solid #BFB8CC;
@@ -29,9 +30,9 @@ margin-bottom: 24px;
   height: 17px;
   width: 190px;
   padding: 6px 12px;
-  }
-.AddTodo-Date
-{
+}
+
+.AddTodo-Date {
   background: #FFFFFF;
   border: 1px solid #BFB8CC;
   border-radius: 4px;
@@ -39,77 +40,75 @@ margin-bottom: 24px;
   margin-right: 11px;
   padding: 2px 2px;
 }
-.AddTodo-Button
-{
-background: #48BB78;
-border-radius: 4px;
-font-family: OpenSans-Semibold;
-font-size: 14px;
-color: #FFFFFF;
-letter-spacing: 0.1px;
-width: 100px;
-}
-.TodoItem-Duedate{
-     font-size: 12px;
-      color: #726A7E;
-    letter-spacing: 0.09px;
-    margin-left: 10px;
 
-   }
-   .TodoItem-Trashbin
-   {
-    width:  11.2px;
-    height: 11.2px;
-    border:  #453C52;
-   }
-.TodoItem-delete
-{
+.AddTodo-Button {
+  background: #48BB78;
+  border-radius: 4px;
+  font-family: OpenSans-Semibold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.1px;
+  width: 100px;
+}
+
+.TodoItem-Duedate {
+  font-size: 12px;
+  color: #726A7E;
+  letter-spacing: 0.09px;
+  margin-left: 10px;
+}
+
+.TodoItem-Trashbin {
+  width: 11.2px;
+  height: 11.2px;
+  border: #453C52;
+}
+
+.TodoItem-delete {
   width: 16px;
 }
 
-.AddTodoSection
-{
+.AddTodoSection {
   background: #FFFFFF;
-border: 1px solid #BFB8CC;
-border-radius: 4px;
-border-radius: 4px;
-  display:flex;
-}
-.TodoItem
-{
+  border: 1px solid #BFB8CC;
+  border-radius: 4px;
+  border-radius: 4px;
   display: flex;
 }
-.TodoItem-Container
-{
+
+.TodoItem {
+  display: flex;
+}
+
+.TodoItem-Container {
   font-size: 14px;
   color: #453C52;
   letter-spacing: 0.1px;
   height: 19px;
   display: block ruby;
   margin: 0px 488px 16px 347px;
-  }
-.TodoItem-Checkbox
-{
+}
+
+.TodoItem-Checkbox {
   background: #FFFFFF;
   border: 1px solid #BFB8CC;
   border-radius: 4px;
   margin-right: 8px;
-
 }
-.TodoItem-Status
-{
+
+.TodoItem-Status {
   font-size: 12px;
   color: #C53030;
   letter-spacing: 0.09px;
   margin-left: 10px;
 }
-.TodoSectionTitle
-{
+
+.TodoSectionTitle {
   display: flex;
   margin: 0px 500px 0px 328px;
 }
-.TodoSectionTitle-text
-{
+
+.TodoSectionTitle-text {
   font-size: small;
   color: #453C52;
   letter-spacing: 0.1px;
@@ -117,9 +116,8 @@ border-radius: 4px;
   margin: 0px 8px 11px 0px;
   font-weight: bold;
 }
-.TodoSectionTitle-RemainingCount
-{
 
+.TodoSectionTitle-RemainingCount {
   font-size: 12px;
   color: #453C52;
   letter-spacing: 0.09px;
