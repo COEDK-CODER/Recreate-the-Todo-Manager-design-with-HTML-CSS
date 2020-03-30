@@ -49,6 +49,7 @@
   color: #FFFFFF;
   letter-spacing: 0.1px;
   width: 100px;
+  padding: 0px;
 }
 
 .TodoItem-Duedate {
