@@ -8,10 +8,10 @@
 
 .TodoPage-title {
   font-weight: bolder;
-  width: 129px;
+  width: 160px;
   height: 27px;
   margin: 0 568px 12px 327px;
-  font-size: inherit;
+  font-size: 20px;
   color: #453C52;
   letter-spacing: 0.14px;
 }
@@ -78,7 +78,7 @@
 }
 
 .TodoItem {
-  display: flex;
+  display: inline-flex;
 }
 
 .TodoItem-Container {
@@ -86,14 +86,15 @@
   color: #453C52;
   letter-spacing: 0.1px;
   height: 19px;
-  display: block ruby;
+  align-items: center;
   margin: 0px 488px 16px 347px;
+  display: flex;
+  width: 300px;
 }
 
 .TodoItem-Checkbox {
-  background: #FFFFFF;
-  border: 1px solid #BFB8CC;
-  border-radius: 4px;
+  height: 14px;
+  width: 14px;
   margin-right: 8px;
 }
 
@@ -101,7 +102,8 @@
   font-size: 12px;
   color: #C53030;
   letter-spacing: 0.09px;
-  margin-left: 10px;
+  margin-left: 8px;
+  align-items: center;
 }
 
 .TodoSectionTitle {
@@ -110,7 +112,7 @@
 }
 
 .TodoSectionTitle-text {
-  font-size: small;
+  font-size: initial;
   color: #453C52;
   letter-spacing: 0.1px;
   height: 19px;
@@ -124,4 +126,21 @@
   letter-spacing: 0.09px;
   height: 17px;
   padding-top: 2px;
+}
+
+.TodoItem-Container:hover {
+  background-color: #f1edf7;
+}
+
+.TodoItem-delete > img {
+  width 16px;
+}
+
+.TodoItem-delete {
+  visibility: hidden;
+  margin-left: 8px;
+}
+
+.TodoItem-Container:hover .TodoItem-delete {
+  visibility: visible;
 }
